@@ -1,0 +1,11 @@
+framework module Solfy {
+  umbrella header "Solfy.h"
+  export *
+
+  module * { export * }
+}
+
+module Solfy.Swift {
+  header "Solfy-Swift.h"
+  requires objc
+}
