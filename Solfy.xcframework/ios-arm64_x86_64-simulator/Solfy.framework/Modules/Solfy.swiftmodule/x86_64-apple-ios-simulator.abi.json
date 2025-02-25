@@ -5828,126 +5828,119 @@
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "StringLiteral",
-      "offset": 1505,
+      "offset": 1504,
       "length": 20,
       "value": "\"Video Output Queue\""
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "Array",
-      "offset": 1576,
+      "offset": 1575,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "StringLiteral",
-      "offset": 1700,
+      "offset": 1699,
       "length": 24,
       "value": "\"Image Processing Queue\""
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "Array",
-      "offset": 1775,
+      "offset": 1774,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "StringLiteral",
-      "offset": 1901,
+      "offset": 1900,
       "length": 55,
       "value": "\"com.google.mediapipe.cameraController.backgroundQueue\""
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "StringLiteral",
-      "offset": 2038,
+      "offset": 2037,
       "length": 66,
       "value": "\"com.google.mediapipe.cameraController.faceLandmarkerServiceQueue\""
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "StringLiteral",
-      "offset": 2982,
+      "offset": 2981,
       "length": 20,
       "value": "\"Depth Output Queue\""
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "Array",
-      "offset": 3053,
+      "offset": 3052,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3539,
+      "offset": 3482,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3580,
+      "offset": 3523,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3619,
+      "offset": 3562,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3655,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3696,
+      "offset": 3598,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3744,
+      "offset": 3646,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3787,
+      "offset": 3689,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3827,
+      "offset": 3729,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3855,
+      "offset": 3757,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/javokhir\/MyFiles\/Development\/AIIG\/Solfy\/solfy-ios-sdk\/Solfy\/Presentation\/Facemesh detection\/FacemeshCameraView.swift",
       "kind": "BooleanLiteral",
-      "offset": 23776,
+      "offset": 23626,
       "length": 4,
       "value": "true"
     },

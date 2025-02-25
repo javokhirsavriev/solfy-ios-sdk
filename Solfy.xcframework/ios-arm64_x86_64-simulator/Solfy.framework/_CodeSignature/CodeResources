@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		l5TwOGRdeaErFoYt1oXSycI7ONA=
+		mLY8IFFZ0FNtDkW4Bbgz7SxuRDw=
 		</data>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		KKK+bZkfDOPGvvZOCYqTouyfR7g=
+		tzL3ALJ+G1ZblvfFyR+CWhKLJEU=
 		</data>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wXvIYEX1TqJ7m2Nqpr7qe+fEg+Y=
+		4HzjEJIXIII0LP4rcroZg9tOKqM=
 		</data>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		KKK+bZkfDOPGvvZOCYqTouyfR7g=
+		tzL3ALJ+G1ZblvfFyR+CWhKLJEU=
 		</data>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uFXez8ioM8LphJeczv29Em8YEBI=
+		aIps8o/mGq765AyI7UVSP+2uN9I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>solfy_license.mlmodelc/coremldata.bin</key>
 		<data>
-		K36TOP5h2mfReXGTkkroSubMavk=
+		hqmA2o2bMJEIpXVD3o3NU2QEW2A=
 		</data>
 		<key>solfy_license.mlmodelc/metadata.json</key>
 		<data>
@@ -132,7 +132,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cdXBbNcxQoWUmQGtqdKPCXEQBW0quGLyIOdlwk8cx6k=
+			1UuDYE7t49F+/NPlBlHoLt4khbn58eqi2lLNSdLPtKo=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -160,14 +160,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TAju/ykOQyHCYB9Bjd5dSG28iwL6dDM5PnKjC/4P1QU=
+			io+pszGOMbWAdmXi5HXRxvQ65dTgHsElioOLMqtX1Fs=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cdXBbNcxQoWUmQGtqdKPCXEQBW0quGLyIOdlwk8cx6k=
+			1UuDYE7t49F+/NPlBlHoLt4khbn58eqi2lLNSdLPtKo=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -195,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			shIXvQW4HkwT7cKXUaCqiht1pictueUoMgZs+VoV4gw=
+			BiGnN4nSJOeWbPb1PvGQEzIlf5RO42AqiMIpBlStzVg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -230,7 +230,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gzwKDgvTEFcZkA45e0X7TJAkxmkxNb2JBzevtwZRmik=
+			DMi/G37+nqAZtWLyLa/KPRUgm/KuULmEfHuDf2nyWS8=
 			</data>
 		</dict>
 		<key>solfy_license.mlmodelc/metadata.json</key>

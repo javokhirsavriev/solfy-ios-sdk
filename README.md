@@ -1,2 +1,1 @@
-# solfy-ios-sdk
-Solfy iOS SDK
+# Solfy iOS SDK
