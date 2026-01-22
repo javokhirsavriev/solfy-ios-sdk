@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		ymbJKPAKZeJc26MJtgCrVIIIu9g=
+		pY8TJNdZA/UdELMQIzVEPVW5mV4=
 		</data>
 		<key>Headers/Solfy-Swift.h</key>
 		<data>
-		LyQ7trXVxGdYx/RvCXAJpAjY8UQ=
+		vTehWWGI0tyxBz7fxaUbPhuHCUU=
 		</data>
 		<key>Headers/Solfy.h</key>
 		<data>
@@ -18,47 +18,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mLY8IFFZ0FNtDkW4Bbgz7SxuRDw=
+		WGk570X51qcPvdedqVXKFNDK1jc=
 		</data>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tzL3ALJ+G1ZblvfFyR+CWhKLJEU=
+		jZ8Q/dOsU6TadAffsiCCzcQJLJA=
 		</data>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		XtTFFT612czVwrl2vFy7rVfY3ZE=
+		d6TtfvjUYVn/0FR1TuA246f35Mg=
 		</data>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jIUIFxFZlpDW/TbJcR3IkzVjmek=
+		8fYec0UkhTyoM+81mQdcbaTsTsA=
 		</data>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XtTFFT612czVwrl2vFy7rVfY3ZE=
+		d6TtfvjUYVn/0FR1TuA246f35Mg=
 		</data>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4HzjEJIXIII0LP4rcroZg9tOKqM=
+		tzdkGpgRkGRFvSCfZ/TWUIWP4rg=
 		</data>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tzL3ALJ+G1ZblvfFyR+CWhKLJEU=
+		jZ8Q/dOsU6TadAffsiCCzcQJLJA=
 		</data>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		UTZJIIcuMxq6A+Lkik0bqlEWN8w=
+		n4TBvQG8S+BiACZeGrs5IOvgFls=
 		</data>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Fy6/8T2LqW4VSeXoqjeJ3My6aMI=
+		6MSsmXwkAPGX1ki6wEaCh346xLk=
 		</data>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UTZJIIcuMxq6A+Lkik0bqlEWN8w=
+		n4TBvQG8S+BiACZeGrs5IOvgFls=
 		</data>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aIps8o/mGq765AyI7UVSP+2uN9I=
+		07ug6sy7po5FhpeOB8SdONc6hHY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -68,41 +68,65 @@
 		<data>
 		JC3nNa8sPPJpTwdTLUEzuLGtKzA=
 		</data>
-		<key>face_landmarker.task</key>
+		<key>common_face_in_oval_en.caf</key>
 		<data>
-		scrLYYJDcIanI0qfx33gSZ0YBNo=
+		Aqs+vNyjY9pJ25NNDilXKupD/nE=
 		</data>
-		<key>solfy_license.mlmodelc/analytics/coremldata.bin</key>
+		<key>common_face_in_oval_ru.caf</key>
+		<data>
+		bBmi/lkE+IvBJUIQFCPn0t/cPew=
+		</data>
+		<key>common_get_closer_en.caf</key>
+		<data>
+		Rvb5LxNkcRFSld/FQG0FKASRZz4=
+		</data>
+		<key>common_get_closer_ru.caf</key>
+		<data>
+		ymN/8F9RK39uvketrxWsait0OF0=
+		</data>
+		<key>common_license.mlmodelc/analytics/coremldata.bin</key>
 		<data>
 		GAI7PyQXttP6OGtG+JwfUwSp9C0=
 		</data>
-		<key>solfy_license.mlmodelc/coremldata.bin</key>
+		<key>common_license.mlmodelc/coremldata.bin</key>
 		<data>
-		hqmA2o2bMJEIpXVD3o3NU2QEW2A=
+		EasiveF8XSCwzakXbh9F8afSyQs=
 		</data>
-		<key>solfy_license.mlmodelc/metadata.json</key>
+		<key>common_license.mlmodelc/metadata.json</key>
 		<data>
-		p+OpdO72r80RKNk9XzCDY9yIXrY=
+		UeKuXU5bwxXewrp/hLGB/aHx9Vo=
 		</data>
-		<key>solfy_license.mlmodelc/model0/analytics/coremldata.bin</key>
+		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
 		24ppOAHUtsiCiVrf6FodQrXXc8M=
 		</data>
-		<key>solfy_license.mlmodelc/model0/coremldata.bin</key>
+		<key>common_license.mlmodelc/model0/coremldata.bin</key>
 		<data>
 		e9S8M9R9OLYZvPC2vHlWx4IuYfk=
 		</data>
-		<key>solfy_license.mlmodelc/model0/model.mil</key>
+		<key>common_license.mlmodelc/model0/model.mil</key>
 		<data>
-		UWNwpA6cVZZZ3R5ztMGUCBd3JME=
+		CZDPKqTW3fSpoZl9gRHhHILWzs8=
 		</data>
-		<key>solfy_license.mlmodelc/model0/weights/weight.bin</key>
+		<key>common_license.mlmodelc/model0/weights/weight.bin</key>
 		<data>
 		Q9kH692TrTtn3OA4LJ6G2m9/LzY=
 		</data>
-		<key>solfy_license.mlmodelc/model1/coremldata.bin</key>
+		<key>common_license.mlmodelc/model1/coremldata.bin</key>
 		<data>
 		kCSvP4PPl/Ryb9TALnvDq6n4DQw=
+		</data>
+		<key>common_move_away_en.caf</key>
+		<data>
+		LVr+04+eUBawwdKMct00BD3AkhE=
+		</data>
+		<key>common_move_away_ru.caf</key>
+		<data>
+		zByeJXbQmt/wEB50wMqjvYeUWHA=
+		</data>
+		<key>face_landmarker.task</key>
+		<data>
+		scrLYYJDcIanI0qfx33gSZ0YBNo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -111,14 +135,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bWFKn4t05g0hMKgkYQPHNJM3IrLUVNQHC54HJW9FkEU=
+			sAowo7EKZhwsb7/S18LJuVuHj2rLqAN0PNdg1RFU8/4=
 			</data>
 		</dict>
 		<key>Headers/Solfy-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kVzlYbcQk9jQvWEECTqmZSLhBBks5Uuq+hbA60hoN8g=
+			me3xYPQNLBq5XoDAZILu/OAN9rmc+Am3T+sEysX9U28=
 			</data>
 		</dict>
 		<key>Headers/Solfy.h</key>
@@ -132,70 +156,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1UuDYE7t49F+/NPlBlHoLt4khbn58eqi2lLNSdLPtKo=
+			oahVlQM9QNNsShITTIzbFaSavKo2YSHONUAaohDf8fs=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uu4MD5166vggVUxiBO3OGBnMAkF18/b4ldXqbadNAM8=
+			Xaq2DtOLJ01+nwfA0FrmL2emPaqOBNS/Z8yCZ8nYnBI=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9MOYwx1teZgpgtUyTU6sVFbiL4922DhA2BF8JJWvcRc=
+			AolIRm59M/ZPGyjMNCSASpucoaS34O69lhUtTW5fmPg=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Uu4MD5166vggVUxiBO3OGBnMAkF18/b4ldXqbadNAM8=
+			Xaq2DtOLJ01+nwfA0FrmL2emPaqOBNS/Z8yCZ8nYnBI=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			io+pszGOMbWAdmXi5HXRxvQ65dTgHsElioOLMqtX1Fs=
+			WFCHdPFl6GU9AbFMEcJdWXPKBoyW7d0Sp4IDFmoqCKE=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1UuDYE7t49F+/NPlBlHoLt4khbn58eqi2lLNSdLPtKo=
+			oahVlQM9QNNsShITTIzbFaSavKo2YSHONUAaohDf8fs=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PNWd9/ZhW+gYDFXoG/02oMbmXMwJCe7CZOsGkogVN68=
+			SwTG4lbXijDQa6xwnk1nSDE8riryzzTghjMQ5xKjkhc=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2N6Fy2qKv+oAtfhoCu/jIPviJ/xZxSWqqfejqBhUB18=
+			Z2RtFlkHxvqYsFLdv2P+YkyzpMmHQLlm2AmlGbXbT1A=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PNWd9/ZhW+gYDFXoG/02oMbmXMwJCe7CZOsGkogVN68=
+			SwTG4lbXijDQa6xwnk1nSDE8riryzzTghjMQ5xKjkhc=
 			</data>
 		</dict>
 		<key>Modules/Solfy.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BiGnN4nSJOeWbPb1PvGQEzIlf5RO42AqiMIpBlStzVg=
+			NBIwRcCSor9bbrq48Ak57ARpgiU62/NSF820240Ge0c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -212,67 +236,109 @@
 			re5T5M8Ea8hKK7JScYBsQUlIer8cbI927i6IH+Z4Y6c=
 			</data>
 		</dict>
-		<key>face_landmarker.task</key>
+		<key>common_face_in_oval_en.caf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZBhOIpsmMQe8K4BMZiXbE0H/K7cxh0sLzC/mVE4Lyf8=
+			6a71+a8FsNNGcfr2dDQvKV1/2MH4NpR+ZYq8xG2pEsI=
 			</data>
 		</dict>
-		<key>solfy_license.mlmodelc/analytics/coremldata.bin</key>
+		<key>common_face_in_oval_ru.caf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			c0YA3FZmCRzupM4S0tuyyi32mZsIzaCgXa5uz0ZfAMY=
+			</data>
+		</dict>
+		<key>common_get_closer_en.caf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6HUo82OoVcnBC82jgDUUePoCzDt3Y5UWr6ylvyNplHU=
+			</data>
+		</dict>
+		<key>common_get_closer_ru.caf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y/+ThJw/NrzTuhN0A4XwTT/5sfbxmcewKFFZz1Ivu+Y=
+			</data>
+		</dict>
+		<key>common_license.mlmodelc/analytics/coremldata.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			AtnckjveRzN09yTxkCz+mFGwk5Hbj18N6CIp/Cebf04=
 			</data>
 		</dict>
-		<key>solfy_license.mlmodelc/coremldata.bin</key>
+		<key>common_license.mlmodelc/coremldata.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DMi/G37+nqAZtWLyLa/KPRUgm/KuULmEfHuDf2nyWS8=
+			JUTbFiHrGFHwPHBcF4jKfOiFQe6btgYijI59xiIir60=
 			</data>
 		</dict>
-		<key>solfy_license.mlmodelc/metadata.json</key>
+		<key>common_license.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wSNM1jH6GTn8fCg5BD3fGKAmBmboSvMmKiR03vZyWZ8=
+			pANTEofLOcK4nInU2WvR2kvG2iQncDugYr3FflljsLE=
 			</data>
 		</dict>
-		<key>solfy_license.mlmodelc/model0/analytics/coremldata.bin</key>
+		<key>common_license.mlmodelc/model0/analytics/coremldata.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			WoKBBJsqZaO+VBz9n5SehLj+HFJRzpDkbaFib+1U5Yo=
 			</data>
 		</dict>
-		<key>solfy_license.mlmodelc/model0/coremldata.bin</key>
+		<key>common_license.mlmodelc/model0/coremldata.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			D3nIMKS6Zuoiuzme9pGD3ur8d7IgPkonUTWsO7Z9dCo=
 			</data>
 		</dict>
-		<key>solfy_license.mlmodelc/model0/model.mil</key>
+		<key>common_license.mlmodelc/model0/model.mil</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gOsUoILSQajEH1MiCPIuYkvNWx3oYvHOdtj63zmWYfg=
+			bl/eYA2LFYZKmZyXYAeUZZr/AHe0LOklNUkzDV0pVcA=
 			</data>
 		</dict>
-		<key>solfy_license.mlmodelc/model0/weights/weight.bin</key>
+		<key>common_license.mlmodelc/model0/weights/weight.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			d/uWqhc7+vtydvPhGen6QE7PPdKz2LXcXF6qHldFGkA=
 			</data>
 		</dict>
-		<key>solfy_license.mlmodelc/model1/coremldata.bin</key>
+		<key>common_license.mlmodelc/model1/coremldata.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			BZsiLiYDcyzeIcsbnZEu7ftHKqm0egWtMYpFb8dm28Q=
+			</data>
+		</dict>
+		<key>common_move_away_en.caf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dlIQ132GPSALs5zfjZ93qgjjwnxgateU+gsW2W9c9as=
+			</data>
+		</dict>
+		<key>common_move_away_ru.caf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HM2E2Ej50E8eqxQoOPUtggdZjREXsyWuw0hLbzLL8B8=
+			</data>
+		</dict>
+		<key>face_landmarker.task</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZBhOIpsmMQe8K4BMZiXbE0H/K7cxh0sLzC/mVE4Lyf8=
 			</data>
 		</dict>
 	</dict>

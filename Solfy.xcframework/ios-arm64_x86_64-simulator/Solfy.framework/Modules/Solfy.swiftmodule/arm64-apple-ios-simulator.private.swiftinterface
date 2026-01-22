@@ -1,9 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name Solfy
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name Solfy
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
 import AVFoundation
-import AssetsLibrary
 import CoreImage.CIFilterBuiltins
 import Combine
 import CoreImage
@@ -19,29 +18,125 @@ import Vision
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc public enum SolfyEntryMode : Swift.Int {
-  case SelfieOnly = 0
-  case SelfieAndPassport
-  case PassportOnly
-  case FullIdent
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public protocol SolfyClientDelegate {
-  @objc func onCompletion(action: Solfy.SolfyAction)
-}
 @_inheritsConvenienceInitializers @objc public class SolfyResult : ObjectiveC.NSObject {
   @objc public var personalNumber: Swift.String
   @objc public var idSeriesNumber: Swift.String
+  @objc public var tin: Solfy.SolfyPassportResult
+  @objc public var passport: Solfy.SolfyPassportResult
   @objc public var selfie: UIKit.UIImage?
+  @objc public var selfieWithDocument: UIKit.UIImage?
+  @objc public var documentFace: UIKit.UIImage?
   @objc public var documentFront: UIKit.UIImage?
   @objc public var documentBack: UIKit.UIImage?
   @objc public var faceData: Swift.String?
   @objc public var videoURL: Foundation.URL?
   @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class SolfyPassportResult : ObjectiveC.NSObject {
+  @objc public var front: Swift.String
+  @objc public var back: Swift.String
+  @objc public var match: Swift.Double
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public protocol SolfyClientDelegate {
+  @objc func onCompleted(result: Solfy.SolfyResult)
+  @objc func onFailed(exception: Solfy.SolfyException)
+  @objc func onCanceled()
+}
+@_inheritsConvenienceInitializers @objc public class SolfyConfig : ObjectiveC.NSObject {
+  @objc public var locale: Solfy.SolfyLocale
+  @objc public var entryMode: Solfy.SolfyEntryMode
+  @objc public var cameraSelector: Solfy.SolfyCameraSelector
+  @objc public var presentationStyle: Solfy.SolfyPresentationStyle
+  @objc public var appearance: Solfy.SolfyAppearance?
+  @objc public var previewSettings: Solfy.SolfyPreviewSettings
+  @objc public var faceCropExpandPercent: CoreFoundation.CGFloat
+  @objc public var requireDocumentDetectionOnSelfieStage: Swift.Bool
+  @objc public var withSoundGuides: Swift.Bool
+  @objc public var withCountdown: Swift.Bool
+  @objc public var timeout: Swift.Int
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum SolfyEntryMode : Swift.Int {
+  case FullIdent = 0
+  case SelfieAndDocument
+  case SelfieWithDocument
+  case PassportOnly
+  case SelfieOnly
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum SolfyLocale : Swift.Int {
+  case Kyrgyz = 0
+  case English
+  case Russian
+  case Chinese
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum SolfyPresentationStyle : Swift.Int {
+  case Full = 0
+  case Sheet
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class SolfyPreviewSettings : ObjectiveC.NSObject {
+  @objc public var documentFront: Swift.Bool
+  @objc public var documentBack: Swift.Bool
+  @objc public var selfieWithDocument: Swift.Bool
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class SolfyClient : ObjectiveC.NSObject {
+  @objc public class func showScanner(withConfig config: Solfy.SolfyConfig, withDelegate delegate: any Solfy.SolfyClientDelegate)
+  @objc public class func buildViewController(withConfig config: Solfy.SolfyConfig, withDelegate delegate: any Solfy.SolfyClientDelegate, showCancelButton: Swift.Bool = true, shouldDismiss: Swift.Bool = false) -> UIKit.UINavigationController
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum CommonCameraSelector : Swift.Int {
+  case Front = 0
+  case Back
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public enum SolfyCameraSelector : Swift.Int {
+  case Front = 0
+  case Back
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init?(rawValue: Swift.Int)
+  #endif
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public class SolfyException : ObjectiveC.NSObject {
+  @objc public var message: Swift.String
+  @objc public var code: Swift.Int
+  public init(message: Swift.String, code: Swift.Int)
   @objc deinit
 }
 @_inheritsConvenienceInitializers @objc public class SolfyAppearance : ObjectiveC.NSObject {
@@ -50,6 +145,7 @@ import _SwiftConcurrencyShims
   @objc public var colorBackground: UIKit.UIColor?
   @objc public var colorOnBackground: UIKit.UIColor?
   @objc public var colorOutline: UIKit.UIColor?
+  @objc public var colorDivider: UIKit.UIColor?
   @objc public var colorProgressIndicatorActive: UIKit.UIColor?
   @objc public var colorProgressIndicatorInactive: UIKit.UIColor?
   @objc public var colorSuccess: UIKit.UIColor?
@@ -57,85 +153,18 @@ import _SwiftConcurrencyShims
   @objc override dynamic public init()
   @objc deinit
 }
-@objc public enum SolfyPresentationStyle : Swift.Int {
-  case Full = 0
-  case Sheet
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@objc public enum SolfyGraphicFieldType : Swift.Int {
-  case Selfie = 0
-  case DocumentFront
-  case DocumentBack
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@_inheritsConvenienceInitializers @objc public class SolfyConfig : ObjectiveC.NSObject {
-  @objc public var locale: Solfy.SolfyLocale
-  @objc public var entryMode: Solfy.SolfyEntryMode
-  @objc public var presentationStyle: Solfy.SolfyPresentationStyle
-  @objc public var appearance: Solfy.SolfyAppearance?
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class SolfyClient : ObjectiveC.NSObject {
-  @objc public class func showScanner(withConfig config: Solfy.SolfyConfig, withDelegate delegate: any Solfy.SolfyClientDelegate)
-  @objc override dynamic public init()
-  @objc deinit
-}
-@objc public enum SolfyLocale : Swift.Int {
-  case Kyrgyz = 0
-  case English
-  case Russian
-  public init?(rawValue: Swift.Int)
-  public typealias RawValue = Swift.Int
-  public var rawValue: Swift.Int {
-    get
-  }
-}
-@_inheritsConvenienceInitializers @objc public class SolfyAction : ObjectiveC.NSObject {
-  @_inheritsConvenienceInitializers @objc public class Complete : Solfy.SolfyAction {
-    @objc public var result: Solfy.SolfyResult
-    @objc override dynamic public init()
-    @objc deinit
-  }
-  @_inheritsConvenienceInitializers @objc public class Error : Solfy.SolfyAction {
-    @objc public var exception: Solfy.SolfyException
-    @objc override dynamic public init()
-    @objc deinit
-  }
-  @_inheritsConvenienceInitializers @objc public class Permission : Solfy.SolfyAction {
-    @objc override dynamic public init()
-    @objc deinit
-  }
-  @_inheritsConvenienceInitializers @objc public class Cancel : Solfy.SolfyAction {
-    @objc override dynamic public init()
-    @objc deinit
-  }
-  @objc override dynamic public init()
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @objc public class SolfyException : ObjectiveC.NSObject {
-  @objc public var message: Swift.String?
-  @objc public var code: Swift.Int
-  @objc override dynamic public init()
-  @objc deinit
-}
 extension Solfy.SolfyEntryMode : Swift.Equatable {}
 extension Solfy.SolfyEntryMode : Swift.Hashable {}
 extension Solfy.SolfyEntryMode : Swift.RawRepresentable {}
-extension Solfy.SolfyPresentationStyle : Swift.Equatable {}
-extension Solfy.SolfyPresentationStyle : Swift.Hashable {}
-extension Solfy.SolfyPresentationStyle : Swift.RawRepresentable {}
-extension Solfy.SolfyGraphicFieldType : Swift.Equatable {}
-extension Solfy.SolfyGraphicFieldType : Swift.Hashable {}
-extension Solfy.SolfyGraphicFieldType : Swift.RawRepresentable {}
 extension Solfy.SolfyLocale : Swift.Equatable {}
 extension Solfy.SolfyLocale : Swift.Hashable {}
 extension Solfy.SolfyLocale : Swift.RawRepresentable {}
+extension Solfy.SolfyPresentationStyle : Swift.Equatable {}
+extension Solfy.SolfyPresentationStyle : Swift.Hashable {}
+extension Solfy.SolfyPresentationStyle : Swift.RawRepresentable {}
+extension Solfy.CommonCameraSelector : Swift.Equatable {}
+extension Solfy.CommonCameraSelector : Swift.Hashable {}
+extension Solfy.CommonCameraSelector : Swift.RawRepresentable {}
+extension Solfy.SolfyCameraSelector : Swift.Equatable {}
+extension Solfy.SolfyCameraSelector : Swift.Hashable {}
+extension Solfy.SolfyCameraSelector : Swift.RawRepresentable {}
